@@ -1,0 +1,63 @@
+.header {
+  padding: 5px;
+  text-align: center;
+  background: #F08080;
+  color: white;
+  font-size: 20px;
+  width: 35%
+}
+
+body
+	{
+			background-color: pink;
+	}
+
+a:link, a:visited
+	{
+		background-color: brown;
+		color:white;
+		text-decoration: none;
+		padding: 16px; 
+		text-align: center;
+		display: inline-block;
+		font-family: verdana;
+		width: 13%
+	}
+
+a:hover
+	{
+		color: purple;
+		background-color: hotpink;
+		text-decoration: underline;
+	}
+
+a:active
+	{
+		color: #F778A1;
+		background-color: #7D0552;
+		text-decoration: underline;
+	}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #F08080;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
